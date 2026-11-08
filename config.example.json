@@ -1,0 +1,62 @@
+{
+  "reddit_user_agent": "python:deckwatch-public:0.1 (by /u/YOUR_REDDIT_USERNAME)",
+  "webhook_url": "",
+  "searches": [
+    {
+      "name": "film camera",
+      "category": "camera",
+      "queries": [
+        "Canon AE-1",
+        "Pentax K1000",
+        "Olympus OM-1"
+      ],
+      "max_price": 250,
+      "exclude": [
+        "lens only",
+        "body cap",
+        "manual"
+      ],
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "name": "portable typewriter",
+      "category": "typewriter",
+      "queries": [
+        "Hermes 3000",
+        "Smith-Corona Sterling",
+        "Olivetti Lettera 32"
+      ],
+      "max_price": 200,
+      "sources": [
+        "reddit"
+      ]
+    },
+    {
+      "name": "turntable",
+      "category": "audio",
+      "queries": [
+        "Technics SL-1200",
+        "Dual 1219"
+      ],
+      "max_price": 600,
+      "sources": [
+        "reddit",
+        "reverb"
+      ],
+      "exclude": [
+        "cover",
+        "lid",
+        "hinge",
+        "leads",
+        "cable",
+        "light",
+        "arm rest",
+        "switch",
+        "parts",
+        "mat"
+      ]
+    }
+  ]
+}
